@@ -666,3 +666,16 @@ class GenericTrainingManager:
                     continue
                 f.write("{}: {}\n".format(metric_name, value))
 
+    def load_save_info(self, info_dict):
+        """
+        Load curriculum info from saved model info
+        """
+        if "curriculum_config" in info_dict.keys():
+            self.dataset.train_dataset.curriculum_config = info_dict["curriculum_config"]
+
+    def add_save_info(self, info_dict):
+        """
+        Add curriculum info to model info to be saved
+        """
+        info_dict["curriculum_config"] = self.dataset.train_dataset.curriculum_config
+        return info_dict
