@@ -3,7 +3,7 @@ This repository is a public implementation of the paper: "SPAN: a Simple Predict
 
 NOTE : some information are not available due to double-blind review process. They will be added afterwards.
 
-The paper is available at COMING SOON
+The paper is available at https://arxiv.org/abs/2102.08742
 
 It focuses on Optical Character Recognition (OCR) applied at line and paragraph levels.
 
@@ -23,7 +23,7 @@ For the paragraph level, here are the results:
 |     RIMES    | 4.17 | 15.61 |
 |   READ 2016   | 6.20 | 25.69 |
 
-Pretrained model weights are available [COMING SOON]() 
+Pretrained model weights are available [here](https://git.litislab.fr/dcoquenet/span) 
 
 Table of contents:
 1. [Getting Started](#Getting-Started)
@@ -163,8 +163,16 @@ All hyperparameters are specified and editable in the training scripts (meaning 
 Evaluation is performed just after training ending (training is stopped when the maximum elapsed time is reached or after a maximum number of epoch as specified in the training script)
 
 ## Citation
-
-COMING SOON
+```bibtex
+@misc{coquenet2021span,
+      title={SPAN: a Simple Predict & Align Network for Handwritten Paragraph Recognition}, 
+      author={Denis Coquenet and Clément Chatelain and Thierry Paquet},
+      year={2021},
+      eprint={2102.08742},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## License
 
