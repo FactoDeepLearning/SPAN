@@ -1,9 +1,9 @@
 # SPAN: a Simple Predict & Align Network for Handwritten Paragraph Recognition
 This repository is a public implementation of the paper: "SPAN: a Simple Predict & Align Network forHandwritten Paragraph Recognition".
 
-NOTE : some information are not available due to double-blind review process. They will be added afterwards.
+To discover my other works, here is my [academic page](https://factodeeplearning.github.io/).
 
-The paper is available at https://arxiv.org/abs/2102.08742
+The paper is available at https://arxiv.org/abs/2102.08742.
 
 It focuses on Optical Character Recognition (OCR) applied at line and paragraph levels.
 
@@ -164,14 +164,21 @@ Evaluation is performed just after training ending (training is stopped when the
 
 ## Citation
 ```bibtex
-@misc{coquenet2021span,
-      title={SPAN: a Simple Predict & Align Network for Handwritten Paragraph Recognition}, 
-      author={Denis Coquenet and Clément Chatelain and Thierry Paquet},
-      year={2021},
-      eprint={2102.08742},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@inproceedings{Coquenet2021,
+    author    = {Denis Coquenet and
+        Cl{\'{e}}ment Chatelain and
+        Thierry Paquet},
+        title     = {SPAN: {A} Simple Predict {\&} Align Network for Handwritten
+        Paragraph Recognition},
+        booktitle = {16th International Conference on Document Analysis and Recognition,
+            {ICDAR}},
+            series    = {Lecture Notes in Computer Science},
+            volume    = {12823},
+            pages     = {70--84},
+            year      = {2021},
+            doi       = {10.1007/978-3-030-86334-0\_5},
+
+        }
 ```
 
 ## License
