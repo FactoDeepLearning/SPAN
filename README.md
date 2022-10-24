@@ -23,7 +23,7 @@ For the paragraph level, here are the results:
 |     RIMES    | 4.17 | 15.61 |
 |   READ 2016   | 6.20 | 25.69 |
 
-Pretrained model weights are available [here](https://git.litislab.fr/dcoquenet/span) 
+Pretrained model weights are available [here](https://git.litislab.fr/dcoquenet/span) and [here](https://zenodo.org/record/7244546).
 
 Table of contents:
 1. [Getting Started](#Getting-Started)
