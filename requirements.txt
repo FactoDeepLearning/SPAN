@@ -19,7 +19,7 @@ matplotlib==3.3.4
 networkx==2.5
 numpy==1.22.0
 oauthlib==3.1.0
-opencv-python==4.5.1.48
+opencv-python==4.8.1.78
 protobuf==3.18.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
