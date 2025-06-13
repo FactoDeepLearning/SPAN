@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: 'SPAN: Simple Predict & Align Network'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: 'Denis '
+    family-names: Coquenet
+    orcid: 'https://orcid.org/0000-0001-5203-9423'
+  - name: Université de Rouen Normandie
+  - name: INSA Rouen
+  - name: LITIS
+identifiers:
+  - type: url
+    value: 'https://arxiv.org/abs/2102.08742'
+repository-code: 'https://github.com/FactoDeepLearning/SPAN/'
+license: CECILL-C
