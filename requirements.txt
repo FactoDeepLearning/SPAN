@@ -6,7 +6,7 @@ cycler==0.10.0
 dataclasses==0.6
 decorator==4.4.2
 editdistance==0.5.3
-future==0.18.2
+future==1.0.0
 google-auth==1.26.1
 google-auth-oauthlib==0.4.2
 grpcio==1.35.0
